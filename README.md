@@ -6,7 +6,7 @@
 
   
 ```
-private DataTable GetDataFromCsv(Stream dataStream)
+  private DataTable GetDataFromCsv(Stream dataStream)
   {
     DataTable data;
     using (var streamReader = new StreamReader(dataStream))
