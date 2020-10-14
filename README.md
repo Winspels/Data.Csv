@@ -1,10 +1,12 @@
 # Data.Csv
 
-Samples
+## Samples
 
-Reading from CSV file
+**Reading from CSV file**
 
-  private DataTable GetDataFromCsv(Stream dataStream)
+  
+```
+private DataTable GetDataFromCsv(Stream dataStream)
   {
     DataTable data;
     using (var streamReader = new StreamReader(dataStream))
@@ -17,4 +19,4 @@ Reading from CSV file
 
     return data;
   }
-  
+```
