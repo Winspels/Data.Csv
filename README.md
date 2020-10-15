@@ -1,5 +1,11 @@
 # Data.Csv
 
+## Installation
+
+```
+Install-Package Winspels.Data.Csv -Version 1.0.0
+```
+
 ## Samples
 
 **Reading from CSV file**
