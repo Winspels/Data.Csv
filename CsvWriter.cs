@@ -183,7 +183,7 @@ namespace Winspels.Data.Csv
 				}
 				if (!flag1 && (content.Length > 1))
 				{
-					switch (content[^1])
+					switch (content[content.Length - 1])
 					{
 						case ' ':
 						case '\t':
